@@ -31,7 +31,7 @@ ul {
     line-height: 1.19;
     color: var(--accent-color);
 }
-.black-logo {
+.header-logo {
     color: var(--black-color);
 }
 .nav-link {
@@ -55,3 +55,33 @@ ul {
 .nav-contact:hover {
     color: var(--accent-color);
 }
+
+/* main */
+
+/* hero */
+.hero {
+    background-color: var(--dark-background);
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: var(--accent-color);
+    cursor: pointer;
+    margin: 0 auto; 
+    display: block;
+}
+
+
