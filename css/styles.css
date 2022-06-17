@@ -44,7 +44,6 @@ ul {
 }
 .nav-links {
     display: flex;
-    margin-right: 280px;
 }
 .nav-link {
     font-weight: 500;
@@ -102,10 +101,6 @@ ul {
 }
 
 /* section */
-.section {
-    width: 1170px;
-    margin: 0 auto;
-}
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -146,24 +141,28 @@ ul {
     background-color: var(--team-background);
     padding-top: 94px;
     padding-bottom: 94px;
-
 }
 .team-list {
     display: flex;
+    text-align: center;
 }
 .team-image {
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 .team-worker {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    margin-bottom: 10px;
 }
 .team-profession {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     color: var(--secondary-color);
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 /* footer */
@@ -184,7 +183,7 @@ ul {
 .footer-address {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     color: var(--white-color);
 }
 .footer-contacts {
@@ -198,4 +197,52 @@ ul {
 .footer-contacts:hover,
 .footer-contacts:focus {
     color: var(--accent-color);
+}
+
+/* portfolio */
+.portfolio {
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+.portfolio-filters {
+    display: flex;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+.portfolio-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    background: var(--team-background);
+    border-radius: 4px;
+    border-color: var(--team-background);
+    margin-right: 8px;
+    cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+.portfolio-list {
+
+}
+.portfolio-image {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.portfolio-caption {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+.portfolio-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--secondary-color);
+    margin-top: 0;
+    margin-bottom: 20px;
 }
