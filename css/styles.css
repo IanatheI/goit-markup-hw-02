@@ -262,11 +262,12 @@ ul {
     align-items: center;
 }
 .portfolio-filters {
-    width: 620px;
+    width: 630px;
     display: flex;
     margin-bottom: 34px;
 }
 .portfolio-button {
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -297,6 +298,7 @@ ul {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    color: var(--main-color);
     margin: 20px 0 4px 24px;
 }
 .portfolio-desc {
